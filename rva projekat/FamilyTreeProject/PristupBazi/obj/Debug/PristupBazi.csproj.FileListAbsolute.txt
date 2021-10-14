@@ -1,0 +1,13 @@
+C:\Users\AB\Desktop\rva projekat\FamilyTreeProject\PristupBazi\bin\Debug\PristupBazi.dll.config
+C:\Users\AB\Desktop\rva projekat\FamilyTreeProject\PristupBazi\bin\Debug\PristupBazi.dll
+C:\Users\AB\Desktop\rva projekat\FamilyTreeProject\PristupBazi\bin\Debug\PristupBazi.pdb
+C:\Users\AB\Desktop\rva projekat\FamilyTreeProject\PristupBazi\bin\Debug\EntityFramework.dll
+C:\Users\AB\Desktop\rva projekat\FamilyTreeProject\PristupBazi\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\AB\Desktop\rva projekat\FamilyTreeProject\PristupBazi\bin\Debug\EntityFramework.xml
+C:\Users\AB\Desktop\rva projekat\FamilyTreeProject\PristupBazi\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\AB\Desktop\rva projekat\FamilyTreeProject\PristupBazi\obj\Debug\PristupBazi.csproj.CopyComplete
+C:\Users\AB\Desktop\rva projekat\FamilyTreeProject\PristupBazi\obj\Debug\PristupBazi.dll
+C:\Users\AB\Desktop\rva projekat\FamilyTreeProject\PristupBazi\obj\Debug\PristupBazi.pdb
+C:\Users\AB\Desktop\rva projekat\FamilyTreeProject\PristupBazi\obj\Debug\PristupBazi.csprojAssemblyReference.cache
+C:\Users\AB\Desktop\rva projekat\FamilyTreeProject\PristupBazi\bin\Debug\Models.dll
+C:\Users\AB\Desktop\rva projekat\FamilyTreeProject\PristupBazi\bin\Debug\Models.pdb

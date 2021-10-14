@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="Scripts/jquery-3.4.1.js"></script>
+    <script src="Scripts/MyScripts/LoginRegister.js"></script>
+    <script src="Scripts/MyScripts/KorisnikRegister.js"></script>
+    <script src="Scripts/MyScripts/DodajOsobu.js"></script>
+    <script src="Scripts/MyScripts/DodajBiografiju.js"></script>
+    <script src="Scripts/MyScripts/IzmjenaOsoba.js"></script>
+    <script src="Scripts/MyScripts/IzmjenaKorisnik.js"></script>
+    <script src="Scripts/MyScripts/PretragaOsoba.js"></script>
+    <script src="Scripts/MyScripts/Redo.js"></script>
+    <script src="Scripts/MyScripts/Undo.js"></script>
+</head>
+
+<body>
+    <div id="formaPrijava">
+        <p>Korisnicko ime:</p>
+        <input type="text" value="" id="username" />
+        <p>Lozinka:</p>
+        <input type="password" value="" id="password" /><br />
+        <button id="login">Prijava</button>
+    </div>
+
+    <button id="logout">Odjava</button>
+    <button id="modifikacijaKorisnika">Izmjena Profila</button>
+    <br />
+    <button id="formareg">Registracija</button>
+    <br />
+    <div id="forma" class="hidden">
+        <p>Ime:</p>
+        <input type="text" value="" id="ime" />
+        <p>Prezime:</p>
+        <input type="text" value="" id="prezime" /><br />
+        <p>Email:</p>
+        <input type="email" value="" id="email" />
+        <p>Lozinka:</p>
+        <input type="password" value="" id="lozinka" /><br />
+        <button id="register">Potvrdi</button>
+    </div>
+
+
+    <div id="formaModifikacijeKorisnika" class="hidden">
+        <p>Ime:</p>
+        <input type="text" value="" id="imeM" />
+        <p>Prezime:</p>
+        <input type="text" value="" id="prezimeM" /><br />
+        <button id="izmjenaKorisnika">Potvrdi</button>
+    </div>
+
+    <div id="pretraga">
+        <p>Pretraga osoba</p>
+        <p>Ime:</p>
+        <input type="text" value="" id="imeP" />
+        <p>Prezime:</p>
+        <input type="text" value="" id="prezimeP" /><br />
+        <button id="pretragaOsoba">Potvrdi</button>
+    </div>
+
+    <div>
+        <table id="tabela" border="1">
+            <thead>
+                <tr>
+                    <th>Ime   </th>
+                    <th>Prezime  </th>
+                    <th>Email   </th>
+                    <th>Kontakt   </th>
+                    <th>Adresa   </th>
+                    <th>Obrazovanje</th>
+                    <th>Radno iskustvo</th>
+                    <th>Vjestine</th>
+                    <th>Info Familija</th>
+                </tr>
+            </thead>
+            <tbody id="tabelabody"></tbody>
+        </table>
+    </div>
+    <button id="refresh">Prikazi Osobe</button>
+
+    <div id="formaOsoba" class="hidden">
+        <p>Ime:</p>
+        <input type="text" value="" id="imeO" />
+        <p>Prezime:</p>
+        <input type="text" value="" id="prezimeO" /><br />
+        <p>Email:</p>
+        <input type="email" value="" id="emailO" />
+        <p>Kontakt:</p>
+        <input type="text" value="" id="telefonO" /><br />
+        <p>Adresa:</p>
+        <input type="text" value="" id="adresaO" /><br />
+
+        <div id="formaBio" class="hidden">
+            <p>Obrazovanje:</p>
+            <input type="text" value="" id="obrazovanje" />
+            <p>Radno iskustvo:</p>
+            <input type="text" value="" id="radnoIskustvo" /><br />
+            <p>Vjestine:</p>
+            <input type="text" value="" id="vjestine" /><br />
+        </div>
+    </div>
+    <button id="createBio">Dodaj Biografiju</button>
+    <button id="create">Potvrdi</button>
+    <button id="modify">Izmijeni</button>
+    <button id="dodajOsobi">Dodaj Osobu</button>
+    <button id="undo">Undo</button>
+    <button id="redo">Redo</button>
+
+    <div>
+        <table id="tabelaChild" border="1" class="hidden">
+            <caption>Dijete</caption>
+            <thead>
+                <tr>
+                    <th>Ime   </th>
+                    <th>Prezime  </th>
+                    <th>Email   </th>
+                    <th>Kontakt   </th>
+                    <th>Adresa   </th>
+                </tr>
+            </thead>
+            <tbody id="tabelaChildbody"></tbody>
+        </table>
+    </div>
+    <div>
+        <table id="tabelaParent" border="1" class="hidden">
+            <caption>Roditelj</caption>
+            <thead>
+                <tr>
+                    <th>Ime   </th>
+                    <th>Prezime  </th>
+                    <th>Email   </th>
+                    <th>Kontakt   </th>
+                    <th>Adresa   </th>
+                </tr>
+            </thead>
+            <tbody id="tabelaParentbody"></tbody>
+        </table>
+    </div>
+    <div>
+        <table id="tabelaSpouse" border="1" class="hidden">
+            <caption>Supruznik</caption>
+            <thead>
+                <tr>
+                    <th>Ime   </th>
+                    <th>Prezime  </th>
+                    <th>Email   </th>
+                    <th>Kontakt   </th>
+                    <th>Adresa   </th>
+                </tr>
+            </thead>
+            <tbody id="tabelaSpousebody"></tbody>
+        </table>
+    </div>
+</body>
+</html>
